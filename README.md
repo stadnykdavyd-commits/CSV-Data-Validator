@@ -3,6 +3,8 @@
 Command-line tool that cleans and validates a CSV file and tells you exactly what was wrong.
 Pure Python standard library, no installation of packages needed.
 
+![A real run on the sample file: 11 rows, 4 clean, 7 rejected with reasons](docs/cover.png)
+
 ```
 customers.csv ──► validate ──► cleaned.csv    (valid rows, values normalized)
                           ├──► rejected.csv   (invalid rows + the reason for each)
